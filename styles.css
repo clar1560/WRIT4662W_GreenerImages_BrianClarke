@@ -13,6 +13,18 @@ body {
 	background: white;
 	line-height: 1.8;
 }
+
+img {
+    display: block;
+    margin: auto;
+}
+
+iframe {
+	float: right;
+	width: 500px;
+  height: 1000px;
+	margin-left: 1em;
+}
 h1 {
 	font: 1.6em Helvetica, Arial, sans-serif;
 	margin-bottom: .4em;
@@ -61,12 +73,7 @@ dd {
 table {
 	margin-top: 1em;
 }
-caption {
-	margin: 0;
-	padding: 0;
-	margin-bottom: 1em;
-	text-align: left;
-}
+
 td, th {
 	padding: 10px;
 }
@@ -74,20 +81,15 @@ td, th {
   margin: auto;
   width: 100%;
 }
-header h2 {
-	padding-bottom: .2em;
-	border-bottom: 1px solid gray;
-}
+
 aside {
 	padding: 1em;
-	background:rgb(83, 104, 138);
-	color: white;
+	background: white;
+	color: black;
 	margin-bottom: 1em;
   width: 40%;
 }
-aside h4 {
-	color: white;
-}
+
 footer {
 	border-top: 1px solid gray;
 	text-align: center;
@@ -112,13 +114,12 @@ footer {
 }
 
 #tabContainer h4 {
-	color: rgb(83, 104, 138);
+	color: white;
 	font-size: 2em;
 }
 
 #tabs{
 	height:30px;
-	overflow:hidden;
 }
 
 #tabs > ul{
@@ -142,7 +143,7 @@ footer {
 }
 
 #tabs > ul > li:hover{
-	background: white;
+	background: blue;
 	cursor:pointer;
 }
 
@@ -165,9 +166,4 @@ footer {
 
 #header {
   background:white
-
-}
-#contact {
-  background-color: #7A0019;
-  padding: 2%;
 }

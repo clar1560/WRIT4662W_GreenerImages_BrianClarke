@@ -20,7 +20,7 @@ img {
 }
 
 iframe {
-	float: right;
+	float: ;
 	width: 500px;
   height: 1000px;
 	margin-left: 1em;
@@ -119,7 +119,7 @@ footer {
 }
 
 #tabs{
-	height:30px;
+	height:20px;
 }
 
 #tabs > ul{
@@ -165,5 +165,9 @@ footer {
 }
 
 #header {
+  background:white
+}
+
+#gislideshow {
   background:white
 }

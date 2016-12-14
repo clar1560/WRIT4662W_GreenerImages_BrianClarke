@@ -8,52 +8,73 @@
 <body>
 <div id="header"><img class="center" src="GI_Header.svg" width="1200" height="149" alt="Greener Images Header">
 </div>
-<div><img src="Images/GI_HeaderPhoto.jpg" width="500" height="375">
-</div>
 
-<h1>What We Do</h1>
-
- <iframe src="https://docs.google.com/a/umn.edu/forms/d/e/1FAIpQLSf5XZPDTfNjNp37HDjv4Nr0ss3u3AVKH9pXrhVWKC7ILpMiVg/viewform?embedded=true" width="500" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...
- </iframe>
-
-<aside role="complementary" class="languages">
-<p>
-    Greener Images Lawn Care, LLC. has been serving the greater Chippewa Valley region for over 20 years. We specialize in both residential and commercial lawn care by offering a suite of applications to improve your lawn:
-     <div id="tabContainer">
+<div id="tabContainer">
     <div id="tabs">
 
       <ul>
-        <li id="tab1"><a href="#tabPanel1">Fertilizer &amp Weed Control </a></li>
-        <li id="tab2"><a href="#tabPanel2">Lime Application</a></li>
-        <li id="tab3"><a href="#tabPanel3">Grub &amp Insect Control</a></li>
-        <li id="tab4"><a href="#tabPanel4">Plug Aeration</a></li>
-        <li id="tab5"><a href="#tabPanel5">Birch Tree Insecticide</a></li>
+        <li id="tab1"><a href="#tabPanel1">Home</a></li>
+        <li id="tab1"><a href="#tabPanel2">Fertilizer &amp Weed Control </a></li>
+        <li id="tab2"><a href="#tabPanel3">Lime Application</a></li>
+        <li id="tab3"><a href="#tabPanel4">Grub &amp Insect Control</a></li>
+        <li id="tab4"><a href="#tabPanel5">Plug Aeration</a></li>
+        <li id="tab5"><a href="#tabPanel6">Birch Tree Insecticide</a></li>
       </ul>
 
     </div>
     <div id="containers">
       <div id="tabPanel1">
+    <img class="mySlides" src="GI_HeaderPhoto.jpg">
+    <img class="mySlides" src="GI_Header.svg">
+    <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+    <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+      </div>
+        <script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+      <div id="tabPanel2">
         <h2>Fertilizer &amp Weed Control</h2>
         <p>The normal program is 4 liquid applications of fertilizer and weed control. This begins in April/Mid May and ends in September/early October. The applications will be spaced apart 5 to 8 weeks depending on weather and other conditions. Programs for fewer than 4 applications per year are also available.
       </div>
-      <div id="tabPanel2">
+      <div id="tabPanel3">
         <h2>Lime Application</h2>
         <p>This granular pelletized application is normally applied from the middle of May through the middle of June. However, it can be applied at any time of the year.
       </div>
-      <div id="tabPanel3">
+      <div id="tabPanel4">
         <h2>Grub &amp Insect Control</h2>
         <p>This application is applied with the spring fertilizer and weed control application from April through the middle of May. It does provide season long control of grubs and some surface feeding insects. It can be applied any time of the year, but spring is most effective.
       </div>
-      <div id="tabPanel4">
+      <div id="tabPanel5">
         <h2>Plug Aeration</h2>
         <p>Plug aerations are normally done from the middle of August to early September. Sprinkler systems and underground dog fencing will need to be marked beforehand to avoid damage.
       </div>
-      <div id="tabPanel5">
+      <div id="tabPanel6">
         <h2>Birch Tree Insecticide</h2>
         <p>This application is applied in March through early April as a soil drench under Birch trees to provide season long protection against Birch leaf minor insects. It will also provide some control of Birch borer insects.
       </div>
+<h1>What We Do</h1>
+    
+<p>
+    Greener Images Lawn Care, LLC. has been serving the greater Chippewa Valley region for over 20 years. We specialize in both residential and commercial lawn care by offering a suite of applications to improve your lawn:
+
 </p>
- </aside>
+
 
 <div id="footer">
 <h2>Contact us!</h2>
